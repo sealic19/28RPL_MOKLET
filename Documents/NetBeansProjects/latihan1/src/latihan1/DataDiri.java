@@ -23,7 +23,7 @@ public class DataDiri { //nama class = nama file
         double tinggi;
 
         //mengisi variable
-        nama = "Gagas Surya Laksana";
+        nama = "Gagas Surya L.";
         alamat = "Jl. Kimangun sarkoro";
         usia = 17;
         tinggi = 170.6;

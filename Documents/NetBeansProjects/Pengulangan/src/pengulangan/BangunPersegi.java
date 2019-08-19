@@ -16,7 +16,7 @@ public class BangunPersegi {
         int sisi;
         System.out.println("Masukkan jumlah sisi persegi: ");
         sisi = input.nextInt();
-        
+
         //Persegi FOR
         System.out.println("\npersegi for");
         System.out.println("");
@@ -36,8 +36,8 @@ public class BangunPersegi {
         while (i<=sisi){
             System.out.println("");
             i++;
-            int j = 1;
-            while (j<=sisi){
+          int j = 1;
+          while (j<=sisi){
             j++;
             System.out.print(" * ");
             }

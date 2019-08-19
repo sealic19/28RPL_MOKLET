@@ -14,17 +14,21 @@ public class NilaiFaktorial {
         int bil, hasil = 1;
         Scanner input = new Scanner(System.in);
         System.out.println("Masukkan sebuah angka: ");
-        bil = input.nextInt();
+        bil = input.nextInt();  
         
-        int i = bil;
-        while (0 <= i; i--){
-            hasil = hasil*i;
-        }
         /*
         for (int i = bil; i > 0; i--){
             hasil = hasil * i;
         }
-        */
+        */        
+        
+        //Mengubah for ke while
+        
+        int i =     bil;
+        while (0 < i){
+            hasil = hasil*i;
+            i--;
+        }       
         System.out.println("Nilai faktorial dari " +bil+ " adalah "+hasil);
     }
 }

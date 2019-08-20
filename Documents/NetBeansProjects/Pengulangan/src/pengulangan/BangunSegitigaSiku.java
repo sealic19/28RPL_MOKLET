@@ -12,14 +12,15 @@ import java.util.Scanner;
 public class BangunSegitigaSiku {
     public static void main(String[] args) {
         int tinggi;
+            
         Scanner input = new Scanner(System.in);
         System.out.println("Masukkan jumlah tinggi segitiga: ");
         tinggi = input.nextInt();
-        
+        /*
         System.out.println("");
         System.out.println("Segitiga Siku-siku WHILE");
         System.out.println("");
-        
+        */
         //Perulangan WHILE
         /*
         int i = 1;
@@ -48,6 +49,31 @@ public class BangunSegitigaSiku {
         }
         
         //Perulangan DO/WHILE
-        //masih pusing pak :'
+        //masih pusing pak :'      
+        
+        System.out.println("");
+        //Segitiga II
+        for (int i = tinggi; i>=1; i--){
+            for(int j = i; j>=1; j--){
+                System.out.print(" * ");
+            }
+            System.out.println("");
+        }
+        
+        System.out.println("");
+        for (int i = 1; i<=tinggi; i++){
+            for(int j = 1; j<=i; j++){
+                System.out.print(j+" ");
+            }
+            System.out.println("");
+        }
+        
+        System.out.println("");
+        for (int i = 1; i<=tinggi; i++){
+            for(int j = 1; j<=i; j++){
+                System.out.print(" "+i);
+            }
+            System.out.println("");
+        }
     }
 }
